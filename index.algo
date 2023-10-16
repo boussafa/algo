@@ -1,0 +1,24 @@
+ALGORITHM algorithm_ali
+
+VAR
+ nb1,nb2,nb3: INTEGER=0;     car,vol,' ': CHAR; 
+
+   BEGIN
+   //determined number of characters
+   print(" enter a sentence");
+   read( car);
+   WHILE (car <> '.') DO
+   nb1= nb1+1;
+   //determined number of vowel
+   if( car:a,e,i,o,u,y) then
+   nb2= nb2+1;
+   end_if
+   //determined number of word
+   if(car' ' and nb1 <>'0' );
+   nb3=nb3+1;
+   end_if
+   END_WHILE
+   print(" nb1,nb2,nb3");
+   END
+
+
